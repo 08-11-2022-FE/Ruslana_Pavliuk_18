@@ -1,23 +1,23 @@
 @import "fonts";
 
 $title-color: #000000;
-$font-color:  #565656;
-$addit-font-color: #7B7B7B;
+$font-color: #565656;
+$addit-font-color: #7b7b7b;
 
 %subtitle-font {
-  font-family: 'RedHatDisplay-Medium';
+  font-family: "RedHatDisplay-Medium";
   font-weight: 500;
   font-size: 22px;
   line-height: 166%;
   letter-spacing: 0.1em;
 }
 %text-font {
-  font-family: 'Lato-Regular';
+  font-family: "Lato-Regular";
   font-size: 16px;
   line-height: 166%;
 }
 %title-font {
-  font-family: 'RedHatDisplay-SemiBold';
+  font-family: "RedHatDisplay-SemiBold";
   font-weight: 600;
   font-size: 28px;
   line-height: 36px;
@@ -79,7 +79,7 @@ $addit-font-color: #7B7B7B;
   }
   .nav__link {
     text-decoration: none;
-    font-family: 'Lato-Regular';
+    font-family: "Lato-Regular";
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 0.3em;
@@ -100,11 +100,11 @@ $addit-font-color: #7B7B7B;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-.nav-burger__line {
-  width: 34px;
-  height: 2px;
-  background-color: $font-color;
-}
+  .nav-burger__line {
+    width: 34px;
+    height: 2px;
+    background-color: $font-color;
+  }
 }
 /* styling for header finishes */
 
@@ -117,10 +117,10 @@ section {
 }
 .hero__image {
   width: 100%;
-  height: 500px ;
+  height: 500px;
 }
 .hero__title {
-  font-family: 'RedHatDisplay-SemiBold';
+  font-family: "RedHatDisplay-SemiBold";
   font-weight: 600;
   font-size: 30px;
   line-height: 50px;
@@ -139,7 +139,7 @@ section {
 .blog__title {
   padding-bottom: 50px;
   text-align: center;
-  font-family: 'RedHatDisplay-Regular';
+  font-family: "RedHatDisplay-Regular";
   font-size: 48px;
   line-height: 64px;
   letter-spacing: 0.05em;
@@ -170,7 +170,7 @@ section {
 }
 .photo {
   width: 100%;
-  }
+}
 
 /* styling for latest posts starts */
 .latest-posts {
@@ -186,8 +186,8 @@ section {
   }
 }
 .latest-posts__title {
-@extend %title-font;
-color: $title-color;
+  @extend %title-font;
+  color: $title-color;
   padding-bottom: 10px;
 }
 .additional-info > img {
@@ -218,7 +218,7 @@ color: $title-color;
   margin-bottom: 50px;
 }
 .most-popular__subtitle {
-  font-family: 'RedHatDisplay-SemiBold';
+  font-family: "RedHatDisplay-SemiBold";
   font-weight: 600;
   font-size: 22px;
   line-height: 166%;
@@ -238,9 +238,9 @@ color: $title-color;
   width: 180px;
   height: 46px;
   text-decoration: none;
-  font-family: '_Lato-Bold';
+  font-family: "_Lato-Bold";
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 16px;
   line-height: 166%;
   letter-spacing: 0.1em;
@@ -254,7 +254,7 @@ color: $title-color;
 
 /* styling for extra-info starts */
 .extra-info__title {
-  font-family: 'RedHatDisplay-Regular';
+  font-family: "RedHatDisplay-Regular";
   font-size: 24px;
   line-height: 166%;
   letter-spacing: 0.1em;
@@ -271,10 +271,10 @@ color: $title-color;
 
 /* styling for footer starts */
 .footer {
-  background: #F4F4F4;
+  background: #f4f4f4;
 }
 .footer_text {
-  font-family: 'RedHatDisplay-Regular';
+  font-family: "RedHatDisplay-Regular";
   font-size: 32px;
   line-height: 42px;
   letter-spacing: 0.05em;
@@ -284,7 +284,7 @@ color: $title-color;
   padding-bottom: 20px;
 }
 .footer__link {
-  font-family: 'Lato-Regular';
+  font-family: "Lato-Regular";
   font-size: 18px;
   line-height: 166%;
   text-align: center;
@@ -301,17 +301,17 @@ color: $title-color;
   font-size: 0;
   margin: 40px auto;
   text-align: center;
-    a {
-      display: inline-block;
-      width: 50px;
-      height: 50px;
-      margin-right: 23px;
-      &:last-child {
-        margin-right: 0;
-      }
-      img {
-        width: 100%;
-      }
+  a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 23px;
+    &:last-child {
+      margin-right: 0;
+    }
+    img {
+      width: 100%;
+    }
   }
 }
 p.copyright-info {
@@ -319,7 +319,7 @@ p.copyright-info {
   padding-bottom: 50px;
   span {
     display: block;
-    font-family: 'Lato-Regular';
+    font-family: "Lato-Regular";
     font-size: 16px;
     line-height: 166%;
     letter-spacing: 0.1em;
