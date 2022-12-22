@@ -114,10 +114,18 @@ section {
 /* styling for hero starts */
 .hero {
   position: relative;
+  height: 500px;
+}
+.hero_wrapper {
+  position: relative;
 }
 .hero__image {
   width: 100%;
   height: 500px;
+  position: absolute;
+  top: 0;
+  left:0;
+  z-index: -1;
 }
 .hero__title {
   font-family: "RedHatDisplay-SemiBold";
@@ -127,9 +135,10 @@ section {
   letter-spacing: 0.05em;
   color: $title-color;
   position: absolute;
-  top: 70px;
+ top: 70px;
   left: 10px;
   z-index: 1;
+  width: 100%
 }
 /* styling for hero ends */
 .blog .info {

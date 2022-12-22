@@ -7,6 +7,13 @@
   width: 94px;
 }
 
+.hero {
+  height: 320px;
+}
+.hero img {
+  height: 320px;
+}
+
 .hero__title {
   font-size: 36px;
   top: 30px;
